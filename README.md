@@ -1,10 +1,10 @@
-# 📚 Library Management System
+# Library Management System
 
 A simple command-line Library Management System built in Python, using a custom **Hash Table** data structure with chaining for efficient book storage and retrieval.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 ├── hash_table.py   # Hash Table implementation (core data structure)
@@ -14,7 +14,7 @@ A simple command-line Library Management System built in Python, using a custom 
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 The system uses a **Hash Table with separate chaining** to manage books:
 
@@ -31,7 +31,7 @@ def hash_function(self, book_id):
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -45,7 +45,7 @@ python main.py
 
 ---
 
-## 🖥️ Usage
+## Usage
 
 On launch, you'll see an interactive menu:
 
@@ -68,19 +68,19 @@ On launch, you'll see an interactive menu:
 
 ---
 
-## 📋 Example
+## Example
 
 ```
 Enter choice: 1
 Enter Book ID: 101
 Enter Book Title: The Pragmatic Programmer
 Enter Author Name: Andy Hunt
-✅ Book added successfully!
+Book added successfully!
 
 Enter choice: 2
 Enter Book ID to search: 101
 
-📘 Book Found:
+Book Found:
 ID     : 101
 Title  : The Pragmatic Programmer
 Author : Andy Hunt
@@ -88,7 +88,7 @@ Author : Andy Hunt
 
 ---
 
-## 🔬 Time Complexity
+## Time Complexity
 
 | Operation | Average Case | Worst Case (all collisions) |
 |-----------|--------------|-----------------------------|
@@ -98,7 +98,7 @@ Author : Andy Hunt
 
 ---
 
-## 📦 Classes & Methods
+## Classes & Methods
 
 ### `HashTable` (`hash_table.py`)
 
@@ -113,7 +113,7 @@ Author : Andy Hunt
 
 ---
 
-## 🛠️ Possible Improvements
+## Possible Improvements
 
 - Persist data to a file (JSON/CSV) so books survive between sessions
 - Support updating book details after insertion
@@ -122,6 +122,6 @@ Author : Andy Hunt
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and free to use for educational purposes.
